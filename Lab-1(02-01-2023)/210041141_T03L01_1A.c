@@ -20,10 +20,6 @@ int main(){
     qsort(nums, n, sizeof(int), cmpfunc);
     
     for(int i = 0; i < n; i++){
-        printf("%d", nums[i]);
-    }
-    
-    for(int i = 0; i < n; i++){
         currentCount = 0;
         currNum = nums[i];
         for(int j = 0; j < n; j++){
@@ -41,5 +37,5 @@ int main(){
             }
         }
     }
-    printf("\n%d", maxNum);
+    printf("%d", maxNum);
 }
