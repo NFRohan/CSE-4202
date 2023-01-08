@@ -1,5 +1,5 @@
-#include<string.h>
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 
 int main(){
     int count, voteMotu = 0, votePatlu = 0;
