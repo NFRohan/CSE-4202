@@ -31,7 +31,7 @@ int main(){
     //sort sets
     bubble_sort(set_one, set_size);
     bubble_sort(set_two, set_size);
-
+    //compare sorted set
     for(int k = 0; k < set_size; k++){
         if(set_one[k] != set_two[k]){
             checkbit++;
