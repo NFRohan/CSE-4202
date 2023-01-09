@@ -8,7 +8,7 @@ void swap(float* p1, float* p2)
 }
 
 //sort descending
-void bubble_sort(float target[], int n)
+void bubble_sort_des(float target[], int n)
 {
 	int i, j;
 	for (i = 0; i < n - 1; i++)
@@ -33,7 +33,7 @@ int main(){
     //get which'th highest num to find
     scanf("%d", &mth);
     //sort array
-    bubble_sort(target, n);
+    bubble_sort_des(target, n);
 
     //find m'th highest number
     for(int j = 0; j < n; j++){
