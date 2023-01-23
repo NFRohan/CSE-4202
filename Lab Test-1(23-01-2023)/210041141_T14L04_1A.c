@@ -24,3 +24,4 @@ int main(){
     len = strlen(genome);
     bubble_sort_des(genome, len);
 }
+//পারিনাই এইটা অন্য কাওকে আস্ক কর
